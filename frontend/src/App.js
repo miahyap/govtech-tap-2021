@@ -1,3 +1,6 @@
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@mui/material/Button';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Button variant="contained">Hello World</Button>
     </div>
   );
 }
