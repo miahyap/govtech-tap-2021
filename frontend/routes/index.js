@@ -47,7 +47,7 @@ router.get('/', function(req, res, next) {
 
 // callback function - directs back to home page
 router.get('/callback', function(req, res, next) {
-  res.sendFile(path.join(__dirname + '/../views/html/index.html'));
+  res.sendFile(path.join(__dirname + '/../views/html/dashboard.html'));
 });
 
 // function for getting environment variables to the frontend
